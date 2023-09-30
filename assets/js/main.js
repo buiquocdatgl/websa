@@ -20,6 +20,7 @@ var pageFunction = {
             ProductImg.src = SmallImg[3].src;
         }
     },
+
 }
 
-pageFunction.init();
+pageFunction.init()

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,8 @@
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +27,8 @@
                             <li class="list_item"><a href="#">Learn</a></li>
                             <li class="list_item"><a href="#">Contact Doctors</a></li>
                             <li class="list_item_1">
-                                <a href="#">FAQ</a></li>
+                                <a href="#">FAQ</a>
+                            </li>
                         </ul>
                         <div class="contact d-flex align-items-center">
                             <div class="phone">
@@ -234,7 +237,8 @@
                             <form name="form" method="post" id="LoginForm">
                                 <input type="text" name="username" placeholder="Username">
                                 <input type="password" name="password" placeholder="Password">
-                                <button type="submit" name="dangnhap" value="Login" class="btn" onclick="return checkForm()">Login</button>
+                                <button type="submit" name="dangnhap" value="Login" class="btn"
+                                    onclick="return checkForm()">Login</button>
                                 <a href="#">Forgot password</a>
                             </form>
                         </div>
@@ -251,7 +255,8 @@
                     <div class="col-12 col-lg-4">
                         <div class="box">
                             <div class="logo"><img src="assets/images/footer-logo-1.png" alt=""></div>
-                            <p class="description">Medical cannabis can be administered through various methods, including capsules, lozenges, tinctures, dermal patches.
+                            <p class="description">Medical cannabis can be administered through various methods,
+                                including capsules, lozenges, tinctures, dermal patches.
                             </p>
                             <div class="footer-card"><img src="assets/images/footer-cards.png" alt=""></div>
                         </div>
@@ -353,18 +358,19 @@
     </div>
 
     <script type="text/javascript">
-        function checkForm(){
-            if(document.form.username.value == ""){
+        function checkForm() {
+            if (document.form.username.value == "") {
                 alert("Please enter UserName!");
                 document.form.username.focus();
                 return false;
             }
-            if(document.form.password.value == ""){
+            if (document.form.password.value == "") {
                 alert("Please enter Password!");
                 document.form.password.focus();
                 return false;
             }
-    }
+        }
     </script>
 </body>
+
 </html>

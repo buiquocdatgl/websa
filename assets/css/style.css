@@ -134,7 +134,7 @@ body {
     font-size: 18px;
 }
 
-@media(max-width:922px) {
+@media(max-width:992px) {
     .headerTop_section {
         display: none;
     }
@@ -182,7 +182,7 @@ body {
     font-size: 3rem;
 }
 
-@media(min-width:922px) {
+@media(min-width:992px) {
     .menu_bar {
         display: none;
     }
